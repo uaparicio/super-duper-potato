@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego lofeudo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script defer src="JS/app.js"></script>
+</head>
+
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="pic_logo">
+                <img height="50" width="50"
+                    src="/img/45713021_10217838536414693_4785811242512023552_n.jpg"
+                    alt="cockpit pic" />
+                <div>
+                    Adolph Lott<br />
+                    -PILOT-
+                </div>
+            </a>
+            <button class="Open-Menu" aria-label="Open Menu">
+                <img src="img/plane-menu.svg" alt="Open Menu">
+            </button>
+            <ul class="menu">
+                <button class="Close-Menu" aria-label="Close Menu">
+                    <i class="fa-solid fa-xmark" alt="Close Menu"></i>
+                </button>
+                <li><a href="#About Me">about me</a></li>
+                <li><a href="#Education">education</a></li>
+                <li><a href="#Work Experience">work experience</a></li>
+                <li><a href="#Contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 id="demo">
+                    <script>
+                        const txt = '{"name":"Adolph", "midname":"Michael", "lastname":"Lott"}'
+                        const obj = JSON.parse(txt);
+                        document.getElementById("demo").innerHTML = obj.name + " " + obj.midname + " " + obj.lastname;
+                    </script>
+                </h1>
+                <h3 class="profile.details">PILOT</h3>
+                <button class="profile-btn">
+                    Download Resume
+                </button>
+            </div>
+            <div class="profile-img-section">
+                <img class="profile-img"
+                    src="img/45713021_10217838536414693_4785811242512023552_n.jpg"
+                    alt="pilot pic " class="">
+            </div>
+        </section>
+    </div>
+
+    <section class="Work Experience" id="Work Experience">
+        <img src="img/plane-departure-solid.svg" alt="between two parts" class="plane">
+        <div class="experiences-body">
+            <h2 class="experiences-title"> Work Experience</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">Jun 2017- Jul 2021</div>
+                    <div class="experience-company">jetBlue Airways, Long Island City, NY & JFK International Airport,NY
+                    </div>
+                    <div class="position">Pilot — First Officer</div>
+                    <div class="experience-description"></div>
+                    <ul>
+                        <li class="e1">- Worked with second in command to ensure safe, timely, and comfortable flights
+                            and
+                            great passenger
+                            experience.
+                        </li>
+                        <li class="e1">- Communicated effectively with second officer, air traffic control, airline
+                            personnel, and cabin
+                            crew.
+                        </li>
+                        <li class="e1">- Conducted checks on operational equipment, navigational controls, fuel levels,
+                            and communication
+                            tools to guarantee problem-free flights.</li>
+                    </ul>
+                </div>
+
+                <div class="experience experience_left">
+                    <div class="experience-date">Jun 2015- Jun 2017</div>
+                    <div class="experience-company">FedEx Express, Memphis, TN</div>
+                    <div class="position">Pilot — Second Officer</div>
+                    <div class="experience-description"></div>
+                    <ul>
+                        <li class="e1">- Flew regular cargo flights between Memphis and New York City, Memphis and Los
+                            Angeles, and Memphis
+                            and Dallas.</li>
+                        <li class="e1">- Supported the Pilot in Command (Officer in Command) as the Second in Command,
+                            performing full
+                            piloting duties when necessary.</li>
+                        <li class="e1">- Ensured all safety protocols and standards were met before, during, and after
+                            each
+                            flight.</li>
+                    </ul>
+                </div>
+
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+
+                <div class="experience">
+                    <div class="experience-date">Sep 2013- Jan 2015</div>
+                    <div class="experience-company"> Catalpa Airwings, Miami, Kendall Tamiami Executive,Florida
+                    </div>
+                    <div class="position">Pilot — private</div>
+                    <div class="experience-description"></div>
+                    <ul>
+                        <li class="e1">- Worrks tirelessly with aircraft dispatcher to manage the safe and systematic
+                            flight.
+                        </li>
+                        <li class="e1">- Flew private passengersmore than 800000 miles without any negative incidents.
+                        </li>
+                        <li class="e1">- Continually utilized GPS and aeronautical charts without error.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="About Me" id="About Me">
+            <h2 class="AM-title">about me</h2>
+            <p class="AM-details">
+                Safety-oriented commercial airline pilot with over 4 years of experience with medium-haul
+                and
+                long-haul flights. FAA ATP certificate. Total: 3500, PiC: 500, X-Country: 100, Night: 100.
+                Rated on
+                Airbus A320neo and Boeing B737 MAX. Seeking to move from domestic US travel to international
+                flights
+                as the new long-haul airline pilot for Lufthansa.
+            </p>
+
+            <h4 class="AM-det">Flight Time & Ratings</h4>
+            <ul class="skills-list">
+                <li class="rating-list"> Total flight time: 3500 hours></li>
+                <li class="rating-list"> As Pilot in Command: 500 hours></li>
+                <li class="rating-list"> As Second in Command: 1000 hours</li>
+                <li class="rating-list"> X-Country: 100+ hours</li>
+                <li class="rating-list"> Nighttime: 100+ hours</li>
+                <li class="rating-list"> Plane types: Airbus A320neo, Boeing B737 MAX</li>
+
+                <li class="rating-list"> Airline Transport Pilot</li>
+                <dd class="rating-list1">Airplane Multiengine Land And Sea</dd>
+
+                <li class="rating-list"> Commercial Privileges</li>
+                <dd class="rating-list1"> Airplane Single Engine Land And Sea</dd>
+
+            </ul>
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="Contact" id="Contact">
+            <h2 class="contact-title">Contact</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Address:</p>
+                    <p class="contact-text">Mendoza, Argentina</p>
+                </div>
+                <div class="contact-details-group">
+                    <e-mail class="contact-label"></e-mail>:
+                    <p class="contact-text">al@example.com.ar</p>
+                </div>
+                <div class="contact-details-group">
+                    <p class="contact-text">Contact me and I will be glad to answer you</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Name</label>
+                    <input required type="text" name="name" id="name" />
+                </div>
+                <div class="contact-form-group">
+                    <label for="e-mail">E-mail</label>
+                    <input required type="e-mail" name="e-mail" id="e-mail" />
+                </div>
+                <div class="contact-form-group">
+                    <label for="message">Message</label>
+                    <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+                <button type="submit" class="contact-form-submit">Send</button>
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li>
+                        <a href="https://twitter.com/adolphlott">
+                            <img src="img/twitter.svg" alt=twitter profile" />
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://linkedin.com/in/adolphlott" class="social-link">
+                            <img src="img/linkedin.svg" alt="linkedin profile" />
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://facebook.com/adolphlott" class="social-link">
+                            <img src="img/facebook.svg" alt="facebook profile" />
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://youtube.com/adolphlott" class="social-link">
+                            <img src="img/youtube.svg" alt="youtube profile" />
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+    </div>
+</body>
+
+</html>
